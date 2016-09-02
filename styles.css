@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    text-align: start;
     float: top;
 
 
@@ -19,6 +20,7 @@ header {
 }
 
 h1 {
+    font-family: "Arial Black", sans-serif;
     margin: 1em;
     float: top;
 }
@@ -44,14 +46,53 @@ nav a:hover {
 }
 
 section {
+    margin: 0;
     clear: both;
+    padding: 1em;
+
+}
+
+section img {
+    float: left;
+    margin: 1em;
+    margin-left: 0;
+    padding: 0;
 }
 
 footer {
-    float: bottom;
+    object-position: bottom;
+    clear: both;
     margin: 0;
     padding: 1ex;
     background-color: #22bbff;
 }
 
+.CallToAction {
+    margin: 1em;
+    padding: 2em;
+    padding-bottom: 2.5em;
+    text-align: center;
+    background-color: #a9f2ff;
+    border: thick #1f90ca solid;
 
+}
+
+.CallToAction h2 {
+    margin: 2px;
+    padding-bottom: 2ex;
+
+}
+
+.CallToAction a {
+    margin: 2px;
+    padding: 2ex 6ex;
+    background-color: #22bbff;
+    color: black;
+    font-size: large;
+    border: thin #1f90ca solid;
+}
+
+.CallToAction a:hover {
+    background-color: #1f90ca;
+    color: white;
+}
