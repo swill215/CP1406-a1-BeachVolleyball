@@ -1,29 +1,57 @@
 body {
     font-family: Arial, Calibri, sans-serif;
+    background-color: #fff4c4;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 header {
+    float: top;
+
+
+}
+
+#logo {
+    margin: 1em;
+    padding: 0;
+    float: left;
 
 }
 
 h1 {
-
+    margin: 1em;
+    float: top;
 }
 
 nav {
+    margin: 1em;
+    padding: 1ex;
 
+
+}
+
+nav a {
+    color: ;
+    border: thin black solid;
+    background-color: #a9f2ff;
+    margin: 2px;
+    padding: 1em;
+
+}
+
+nav a:hover {
+    background-color: #22bbff;
 }
 
 section {
-
+    clear: both;
 }
 
 footer {
-
+    float: bottom;
+    margin: 0;
+    padding: 1ex;
+    background-color: #22bbff;
 }
 
-img {
-    margin: 5px;
-    padding: 5px;
-}
 
